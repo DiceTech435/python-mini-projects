@@ -31,6 +31,7 @@ for question in questions:
     else:
         print("INCORRECT!")
         print(f"{answers[question_num]} is the correct answer")
+
     question_num += 1
 
 print("--------------------")
@@ -48,4 +49,6 @@ for guess in guesses:
 print()
 
 score = int(score / len(questions) * 100)
-print(f"Your score is: {score}%")
+print(f"You scored: {score}%")
+
+# print(f"Your score is: {score} / {len(questions)}")
